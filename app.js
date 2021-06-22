@@ -25,8 +25,8 @@ function changeBackground(obj) {
        const items = element.querySelectorAll('.item')
 
        items.forEach(item => {
-        const ramdomIndex = Math.round(Math.random() * backgroundImage.length - 1)
-
+        const ramdomIndex = Math.floor(Math.random() * (backgroundImage.length - 1) )
+            console.log(ramdomIndex)
            item.style.backgroundImage = `url(${backgroundImage[ramdomIndex]}`
        })
     })

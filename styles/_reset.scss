@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, button, input {
+    font-family:  Ubuntu,  sans-serif;
+}
+
+*, li {
+    list-style: none;
+}
+
+*, a {
+    text-decoration: none;
+}
+
+@media(max-width: 1080px) {
+    html {
+        font-size: 97.3%;
+    }
+}
+
+@media(max-width: 720px) {
+    html {
+        font-size: 84.6%;
+    }
+}
